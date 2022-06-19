@@ -1,0 +1,35 @@
+header h1{
+    color: rgb(252, 5, 5);
+    text-align: center;
+    background-color: yellow;
+    font-size: 72px;
+    background-size: 80%;
+}
+header span{
+    font-size: 100px;
+    color: red;
+}
+nav ul{
+    text-align: justify;
+    background-color: aquamarine;
+}
+nav a{
+text-decoration: none;
+}
+nav li{
+    border: black;
+    border-radius: 1px;
+    border-style: solid;
+display: inline;
+font-size: 52px;
+text-align: center;
+}
+main h1{
+    color: darkblue;
+}
+aside{
+    float: right;
+    width: 40%;
+    color: chocolate;
+    font-size: large;
+}
