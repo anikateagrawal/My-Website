@@ -12,25 +12,43 @@
     <header id="top">
         <a href="./images/profile_photo.jpg"><img src="./images/profile_photo.jpg" alt="My Photo"></a>
         <span >Welcome To My Website</span>
-        <nav>
-            <ul>
-                <li><a href="#top"> Home</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#hobbies">Hobbies</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        
     </header>
+    <nav>
+        <ul>
+            <li><a href="#top"> Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
     <main>
         <h1 id="top">Introduction</h1>
         <p >
             This is my personal website. It has information about me such as my skills, qualifications, achievements ,hobbies and interests. It also contains all the pdfs, files, notes ,codes , documents and books which I have studied throughout my B.Tech. from GLA University.<p>
     </main>
-    <aside>
+
+    <div class="container">
+    <section id="education">
+        <div class="images">
+        <a href="./images/images.jpg"><img src="./images/images.jpg" alt="quote"></a>
+        <a href="./images/image2.png"><img src="./images/image2.png" alt="quote"></a>
+        <a href="./images/images (1).jpg"><img src="./images/images (1).jpg" alt="quote"></a></div>
+        <h2 style="color:blueviolet;text-decoration: underline;">Education</h2>
+        <table border="5" cellpadding="15">
+            <tr align="center" style="color:red;font-size: 42px;">
+            <th width="200px" >Years</th>
+            <th width="600px">Qualifications</th></tr>
+            <tr align="center"><td>2020-2024</td><td>B.Tech in Computer Science & Engineering from <a href="https://www.gla.ac.in/" target="_blank"> GLA University</a> with 9.6 CPI</td></tr>
+            <tr align="center"><td>2018-2020</td><td>12th from <a href="http://www.sacredheartmathura.com/" target="_blank"> Sacred Heart Convent Higher Secondary School</a> which is affiliated to <a href="https://www.cisce.org/" target="_blank">ISC Board</a> with <a href="./images/12th_marksheet.jpg">95% marks</a></td></tr>
+            <tr align="center"><td>2016-2018</td><td>10th from <a href="http://www.sacredheartmathura.com/" target="_blank"> Sacred Heart Convent Higher Secondary School</a> which is affiliated to <a href="https://www.cisce.org/" target="_blank">ICSE Board</a> with <a href="./images/10th_marksheet.jpg">96% marks</a></td></tr>
+        </table>    
+    </section>
+    <aside id="skills">
         <a href="./images/download.jpg"><img src="./images/download.jpg" alt="quote"></a>
-        <h3 id="skills">Skills</h3>
+        <h3 >Skills</h3>
         <ul >
             <li >Fluent Speaker(English and Hindi)</li>
             <li><a href="https://github.com/anikateagrawal/C-basic-programs">C language</a></li>
@@ -42,19 +60,21 @@
             <li><a href="https://github.com/anikateagrawal/Data-Structure-and-Algorithms">Data Structure & Algorithms</a></li>
         </ul>
     </aside>
-    <section id="education">
-        <a href="./images/images.jpg"><img src="./images/images.jpg" alt="quote"></a>
-        <a href="./images/image2.png"><img src="./images/image2.png" alt="quote"></a>
-        <a href="./images/images (1).jpg"><img src="./images/images (1).jpg" alt="quote"></a>
-        <h2 style="color:blueviolet;text-decoration: underline;">Education</h2>
-        <table border="5" cellpadding="15">
-            <tr align="center" style="color:red;font-size: 22px;">
-            <th width="200px" >Years</th>
-            <th width="600px">Qualifications</th></tr>
-            <tr align="center"><td>2020-2024</td><td>B.Tech in Computer Science & Engineering from <a href="https://www.gla.ac.in/" target="_blank"> GLA University</a> with 9.6 CPI</td></tr>
-            <tr align="center"><td>2018-2020</td><td>12th from <a href="http://www.sacredheartmathura.com/" target="_blank"> Sacred Heart Convent Higher Secondary School</a> which is affiliated to <a href="https://www.cisce.org/" target="_blank">ISC Board</a> with <a href="./images/12th_marksheet.jpg">95% marks</a></td></tr>
-            <tr align="center"><td>2016-2018</td><td>10th from <a href="http://www.sacredheartmathura.com/" target="_blank"> Sacred Heart Convent Higher Secondary School</a> which is affiliated to <a href="https://www.cisce.org/" target="_blank">ICSE Board</a> with <a href="./images/10th_marksheet.jpg">96% marks</a></td></tr>
-        </table>    
+</div>
+<div class="container">
+    <section id="projects">
+        <div class="images">
+        <a href="./images/image3.jpg"><img src="./images/image3.jpg" alt="quote"></a>
+        <a href="./images/images4.png"><img src="./images/images4.png" alt="quote"></a>
+        <a href="./images/image5.png"><img src="./images/image5.png" alt="quote"></a></div>
+        <div class="content">
+        <h2 style="color:blueviolet;text-decoration: underline;">Projects</h2>
+        <ul style="font-size: 26px;">
+            <li><a href="https://github.com/anikateagrawal/python/blob/main/Employee%20Tracking%20System.py">Employee Management System (Python)</a></li>
+            <li><a href="https://github.com/anikateagrawal/python/blob/main/FriendsBook.py">Friends Book (Python)</a></li>
+            <li><a href="https://github.com/anikateagrawal/My-Website">My Website (Html,CSS)</a></li>
+        </ul>
+    </div>
     </section>
     <aside id="hobbies">
         <a href="./images/download.png"><img src="./images/download.png" alt="quote"></a>
@@ -65,26 +85,15 @@
             <li>Problem Solving <a href="https://www.hackerrank.com/anikate_agrawal1">(Hackerrank)</a></li>
         </ul>
     </aside>
-    <section id="projects">
-        <br>
-        <a href="./images/image3.jpg"><img src="./images/image3.jpg" alt="quote"></a>
-        <a href="./images/images4.png"><img src="./images/images4.png" alt="quote"></a>
-        <a href="./images/image5.png"><img src="./images/image5.png" alt="quote"></a>
-        <h2 style="color:blueviolet;text-decoration: underline;">Projects</h2>
-        <ul style="font-size: 26px;">
-            <li><a href="https://github.com/anikateagrawal/python/blob/main/Employee%20Tracking%20System.py">Employee Management System (Python)</a></li>
-            <li><a href="https://github.com/anikateagrawal/python/blob/main/FriendsBook.py">Friends Book (Python)</a></li>
-            <li><a href="https://github.com/anikateagrawal/My-Website">My Website (Html,CSS)</a></li>
-        </ul>
-    </section>
-    <section id="contact">
+</div >
+    <div id="contact" class="container">
         <h2 style="color:blueviolet;text-decoration: underline;">Contact</h2>
-        Email : anikateag7316@gmail.com
-        <br>
-        LinkedIn : <a href="https://www.linkedin.com/in/anikate-agrawal-8a03401bb?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BxyCEo%2FWBSBWL3ZERLP36fw%3D%3D">LinkedIn Profile</a>
-        <br>
-        Instagram : <a href="https://www.instagram.com/anikateagrawal/">Instagram Profile</a>
-    </section>
+        <p> Email : anikateag7316@gmail.com</p>
+        <p>
+        LinkedIn : <a href="https://www.linkedin.com/in/anikate-agrawal-8a03401bb?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BxyCEo%2FWBSBWL3ZERLP36fw%3D%3D">LinkedIn Profile</a></p>
+        <p>
+        Instagram : <a href="https://www.instagram.com/anikateagrawal/">Instagram Profile</a></p>
+    </div>
     <p style="float: right;font-size: 24px;"> &copy; Anikate Agrawal</p>
 </body>
 </html>
