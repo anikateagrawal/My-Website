@@ -1,8 +1,9 @@
+
 header h1{
     color: rgb(252, 5, 5);
     text-align: center;
     background-color: yellow;
-    font-size: 72px;
+    font-size: xx-large;
     background-size: 80%;
 }
 header span{
@@ -14,7 +15,6 @@ nav{
     top: 0;
 }
 nav ul{
-    height: 70px;
     text-align: justify;
     background-color: gray;
     display: flex;
@@ -25,18 +25,17 @@ nav a{
 text-decoration: none;
 }
 nav li{
-    margin-right: 20px;
     border: 0px;
-    border-bottom: 5px white;
+    margin: 10px;
+    border-bottom: 3px white;
     border-style: solid;
 display: inline;
-font-size:40px;
+font-size:xx-large;
 text-align: center;
 }
 main{
-    height: 300px;
     padding: 20px;
-    font-size: 32px;
+    font-size: xx-large;
     background-color: white;
     border-radius: 20px;
 }
@@ -47,37 +46,26 @@ main h1{
     color: darkblue;
 }
 aside{
-    margin: 20px;
-    padding: 20px;
+    float: right;
+    margin: 2%;
+    padding: 2%;
     width: 30%;
     color: chocolate;
-    font-size: 26px;
-    display: flex;
-    justify-content: center;flex-direction: column;
-    align-items: center;
+    font-size: xx-large;
     background-color:bisque;
     border-radius: 20px;
 }
 .container{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    margin: 50px;
-    
-    font-size: 32px;
-}
-#contact{
-    flex-direction: column;
-    line-height: 0%;
-}
-img{
-    width: 250px;
-    height: 250px;
-}
-section{
-    width: 60%;
+    padding: 2%;
+    margin: 2%;
+    font-size: xx-large;
 }
 
-.images{
-    display: flex;justify-content: space-evenly;
+section{
+    width: 60%;
+    padding: 20px;
+    font-size: xx-large;
+}
+img{
+    border-radius: 20px;
 }
